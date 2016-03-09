@@ -1,0 +1,75 @@
+.timeline {
+  &--info {
+    width: 200px;
+    float: left;
+  }
+
+  &--info-date {
+    font-size: 10px;
+    font-weight: bold;
+    color: #D5D9DD;
+    text-align: right;
+  }
+
+  &--info-time {
+    font-size: 50px;
+    padding-left: 45px;
+    color: #93C3E9;
+    text-align: right;
+  }
+  &--line {
+    width: 30px;
+    float: left;
+  }
+
+  &--line-dot {
+    width: 30px;
+    height: 30px;
+    border: 5px solid #80C0E9;
+    border-radius: 50%;
+    background-color: #5096C6;
+    margin-left: 5px;
+    margin-top: 1px;
+
+  }
+  &--line-bar {
+    width: 8px;
+    height: 100px;
+    background-color: #B8DCF5;
+    margin-left: 20px;
+  }
+
+  &--content-box {
+    width: 700px;
+    height: 350px;
+    background-color: #80C0E9;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+  }
+  &--title {
+    font: Verdana;
+    width: 675px;
+    color: white;
+    text-align: center;
+    // bottom-border: 1px solid white;
+
+  }
+  &--bar {
+    width: 700px;
+    height: 2px;
+    background-color: white;
+  }
+
+  &--content {
+    font: Verdana;
+    width: 675px;
+    color: white;
+    text-align: left;
+
+  }
+
+
+
+
+}
