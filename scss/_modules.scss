@@ -5,15 +5,16 @@
   }
 
   &--info-date {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     color: #D5D9DD;
     text-align: right;
+    margin-right: 5px;
+
   }
 
   &--info-time {
     font-size: 50px;
-    padding-left: 45px;
     color: #93C3E9;
     text-align: right;
   }
@@ -51,19 +52,24 @@
     font: Verdana;
     width: 675px;
     color: white;
-    text-align: center;
+    text-align: left;
+    margin-left: 30px;
     // bottom-border: 1px solid white;
 
   }
   &--bar {
-    width: 700px;
+    width: 620px;
     height: 2px;
+    margin-left: 30px;
     background-color: white;
+
   }
 
   &--content {
     font: Verdana;
-    width: 675px;
+    font-size: 20px;
+    width: 620px;
+    margin-left: 30px;
     color: white;
     text-align: left;
 
