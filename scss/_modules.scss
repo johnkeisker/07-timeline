@@ -2,6 +2,7 @@
   &--info {
     width: 200px;
     float: left;
+
   }
 
   &--info-date {
@@ -35,7 +36,7 @@
   }
   &--line-bar {
     width: 8px;
-    height: 100px;
+    height: 325px;
     background-color: #B8DCF5;
     margin-left: 20px;
   }
@@ -54,12 +55,14 @@
     color: white;
     text-align: left;
     margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     // bottom-border: 1px solid white;
 
   }
   &--bar {
     width: 620px;
-    height: 2px;
+    height: 1px;
     margin-left: 30px;
     background-color: white;
 
@@ -73,7 +76,13 @@
     color: white;
     text-align: left;
 
-  }
+}
+
+
+
+
+
+
 
 
 
