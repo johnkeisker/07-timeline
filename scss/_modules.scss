@@ -75,16 +75,9 @@
     margin-left: 30px;
     color: white;
     text-align: left;
+  }
 
-}
-
-
-
-
-
-
-
-
-
-
+  &:nth-child(even) &--content-box {
+    background-color: #000;
+  }
 }
