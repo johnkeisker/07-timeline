@@ -27,8 +27,7 @@ body {
   border: 5px solid #80C0E9;
   border-radius: 50%;
   background-color: #5096C6;
-  margin-left: 5px;
-  margin-top: 1px; }
+  margin-left: 5px; }
 
 .timeline--line-bar {
   width: 8px;
@@ -68,7 +67,13 @@ body {
   text-align: left; }
 
 .timeline:nth-child(even) .timeline--content-box {
-  background-color: #000; }
+  background-color: #5096C6;
+  width: 700px;
+  height: 250px; }
+
+.timeline:nth-child(even) .timeline--line-bar {
+  height: 170px;
+  padding-bottom: 50px; }
 
 .clearfix {
   overflow: auto;

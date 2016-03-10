@@ -31,7 +31,6 @@
     border-radius: 50%;
     background-color: #5096C6;
     margin-left: 5px;
-    margin-top: 1px;
 
   }
   &--line-bar {
@@ -78,6 +77,13 @@
   }
 
   &:nth-child(even) &--content-box {
-    background-color: #000;
+    background-color: #5096C6;
+    width: 700px;
+    height: 250px;
+  }
+
+  &:nth-child(even) &--line-bar {
+    height: 170px;
+    padding-bottom: 50px;
   }
 }
